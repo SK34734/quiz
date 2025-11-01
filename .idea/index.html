@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Personality Quiz Starter Code</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <h1>Should you visit Universal Studios or Disneyland? </h1>
+</header>
+
+<main>
+
+    <h2>Do you prefer Star Wars or Indiana Jones?</h2>
+
+    <div class="question">
+        <div class="answer-choice">
+
+            <br>
+            <button style="width: 600px; height: 50px;" id="q1a1">Indiana Jones</button>
+        </div>
+
+        <div class="answer-choice">
+
+            <br>
+            <button style="width: 600px; height: 50px;" id="q1a2">Star Wars</button>
+        </div>
+
+    </div>
+
+    <h2>Do you prefer the Simpsons or Ducktales?</h2>
+    <div class="question">
+
+        <div class="answer-choice">
+
+            <br>
+            <button style="width: 600px; height: 50px;" id="q2a1">Ducktales</button>
+        </div>
+
+        <div class="answer-choice">
+
+            <br>
+            <button style="width: 600px; height: 50px;" id="q2a2">The Simpsons</button>
+        </div>
+
+    </div>
+
+    <h2>Do you prefer action packed rides or smaller scale rides?</h2>
+    <div class="question">
+
+        <div class="answer-choice">
+            <br>
+            <button style="width: 600px; height: 50px;" id="q3a1">smaller scale rides</button>
+        </div>
+
+        <div class="answer-choice">
+            <br>
+            <button style="width: 600px; height: 50px;" id="q3a2">action packed rides</button>
+        </div>
+
+    </div>
+
+    <h2 id="result">Your result is...</h2>
+
+    <button id="restart">Restart</button>
+
+    <button id="open-popup">Open Pop-Up</button>
+
+    <div id="popup" class="popup hidden">
+        <div class="popup-content">
+            <p>Fun fact: Both theme parks started out as studio tours! Bob Gurr
+            (beloved Imagineer) also worked with Universal Studios to create vehicle designs for movies!</p>
+            <button id="close-popup">Close</button>
+        </div>
+    </div>
+
+
+</main>
+<script src="script.js"></script>
+</body>
+</html>
+</html>
